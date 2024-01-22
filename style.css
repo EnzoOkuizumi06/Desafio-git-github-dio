@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
+/* Parte 1 banner */ 
+  body {
+    background-color: black;
+    margin: 0;
+  }
+
+  p {
+    color: white;
+  }
+
+  .banner {
+    
+    min-width: 600px;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(50, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(assets/images/banner.png);
+    object-fit: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+  }
+
+  .banner-content p {
+    width: 600px;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .logo {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  button {
+    width: 300px;
+    height: 60px;
+    font-family: Raleway, sans-serif;
+    color: rgb(50, 150, 200);
+    border: 2px solid rgb(49, 168, 221);
+    font-size: 16px;
+    
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 4px;
+  }
+
+  .banner h1 {
+    font-family: Raleway, sans-serif;   
+    font-size: 2.5rem;
+    color: rgb(39, 146, 204);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  header {
+    border-bottom: 1px solid rgb(49, 168, 221);
+  }
+
+  /* Parte 2 conteúdo */
+
+  #course-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #course-content h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33A8DB;
+    text-align: center;
+  }
+
+  #course-content p {
+    width: 800px;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .module {
+    width: 450px;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid rgb(49, 168, 221);
+    padding: 15px 20px 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 50px 50px 50px 50px;
+
+    background-color: rgb(37, 37, 37);
+    box-shadow: inset 20px 20px 20px 20px rgba(0, 0, 0, 0.3);
+    
+  }
+
+  span {
+    color: #33A8DB;
+  }
+
+  /* Parte 3 img + transforme o mundo com a gente */
+
+  #transform-world {
+    background-image: url(assets/images/woman-code.png);
+    height: 560px;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+    
+  }
+
+  #transform-world p {
+    width: 280px;
+    font-family: Raleway, sans-serif;
+    font-weight: thin;
+    font-size: 40px;
+    padding: 200px;
+    text-transform: lowercase;
+    font-weight: 900;
+    text-shadow: 3px 1px 0px #33A8DB;
+  }
+
+  /* Parte 4 Evolua... + img */
+
+  section#professional-challenges {
+    
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #33A8DB;
+  }
+
+  #professional-challenges h2 {
+    width: 900px;
+    font-family: Raleway, sans-serif;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33A8DB;
+    margin: auto;
+    padding-top: 60px;
+ 
+  }
+
+  #professional-challenges p {
+    width: 900px;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+
+  /*Parte 5 rodapé */ 
+
+  footer {
+    text-align: center;
+    padding-bottom: 50px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(51, 168, 219, 0.3));
+  }
+
+  footer .dio-logo {
+    width: 300px;
+  }
+
+  footer p {
+    width: 300px;
+    font-family: Relaway, sans-serif;
+    font-size: 16px;
+    margin: auto;
+  }
+
+  a {
+    color: #33A8DB;
+    text-decoration: none;
+    font-weight: bold;
+  }
